@@ -1,0 +1,123 @@
+*, *:before, *:after{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	text-align: left;
+	border: 2px;
+}
+
+html { 
+  background: "background.jpg" no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: left;
+	margin: auto; 
+	padding: 10px;
+	color: green;
+}
+
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+}
+li{
+	float: left;
+}
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Verdana;
+}
+h2{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: left;
+	margin: 2px; 
+	padding-left: 10px;
+	padding-bottom: 10px;
+	color: white;
+}
+form{
+	color: white;
+}
+p{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-align: left;
+	margin: 2px; 
+	color: white;
+}
+.table1 {         
+    table-align: centre;
+    border-collapse: collapse;
+    width: 50%;
+    margin: 50px;
+	margin-left: 0px;
+}
+ 
+.td1{
+    margin-top: 5px;
+    padding: 8px;
+    text-align: center;
+    display: block;
+	color: green;
+    border-radius: 5px;
+}
+
+ 
+td:hover {
+    background-color: #999999;
+}
+th:hover{
+    background-color: #999999;
+}
+
+.grid-item{
+    width: 33.33%;
+    margin:0;
+    padding: 5px;
+}
+ 
+.grid{
+    width: 60%;
+    margin: auto;
+}
+ 
+@media (max-width: 300px){
+    .grid-item {
+        width: 100%
+    }
+    .grid {
+        width: 100%
+    }
+}
+@media (min-width: 300px)  and (max-width: 550px){
+    .grid-item {
+        width: 50%
+    }
+    .grid {
+        width: 100%;
+    }
+}
+@media (min-width: 550px) and (max-width: 750px){
+    .grid-item {
+        width: 33.33%
+    }
+    .grid {
+        width: 100%;
+    }
+}
